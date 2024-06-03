@@ -54,3 +54,7 @@
   padding: 1.5rem;
   background-color: #cdcdcd;
 }
+.producto-imagen{
+  max-width: 200px;
+  height: 200px;
+}
