@@ -1,0 +1,20 @@
+[
+        {
+          "id":"ropa",  
+          "nombre": "Ropa",
+          "subcategorias": [
+            {"nombre": "Pantalones", "id": "pantalones"},
+            {"nombre": "Remeras", "id": "remeras"},
+            {"nombre": "Camperas", "id": "camperas"}
+          ]
+        },
+        {
+          "id":"accesorios",
+          "nombre": "Accesorios",
+          "subcategorias": [
+            {"nombre": "Anillos", "id": "anillos"},
+            {"nombre": "Aritos", "id": "aritos"},
+            {"nombre": "Relojes", "id": "relojes"}
+          ]
+        }
+      ]

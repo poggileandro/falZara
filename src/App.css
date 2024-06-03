@@ -32,16 +32,25 @@
   flex-direction: column;
   align-items: center;
 }
+.icono{
+  display: flex;
+  
+}
+
 .icono a{
   color: #ffff;
   font-size: 2rem;
 }
-.contenedor{
-  width: 100%;
-  height: 85vh;
-  background-color: #dcdcdc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
+
+
+.ItemList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: .5rem;
+  margin: 1rem;
+}
+.titulo{
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #cdcdcd;
 }

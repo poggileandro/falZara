@@ -1,0 +1,24 @@
+[
+   
+    {"nombre": "PANTALÓN VAQUERO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_vaquero", "precio": 50.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "PANTALÓN CHINO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_chino", "precio": 45.00, "talla": "L", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "PANTALÓN DEPORTIVO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_deportivo", "precio": 30.00, "talla": "S", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "REMERÁ BÁSICA", "categoria": "ropa", "subcategoria": "remeras", "id": "remera_basica", "precio": 15.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "REMERÁ ESTAMPADA", "categoria": "ropa", "subcategoria": "remeras", "id": "remera_estampada", "precio": 20.00, "talla": "L", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "REMERÁ DEPORTIVA", "categoria": "ropa", "subcategoria": "remeras", "id": "remera_deportiva", "precio": 25.00, "talla": "S", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "CAMPERA DE CUERO", "categoria": "ropa", "subcategoria": "camperas", "id": "campera_de_cuero", "precio": 100.00, "talla": "L", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "CAMPERA DE JEAN", "categoria": "ropa", "subcategoria": "camperas", "id": "campera_de_jean", "precio": 80.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "CAMPERA ROMPEVIENTOS", "categoria": "ropa", "subcategoria": "camperas", "id": "campera_rompevientos", "precio": 60.00, "talla": "S", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "PANTALÓN DE VESTIR", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_de_vestir", "precio": 55.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ANILLO DE PLATA", "categoria": "accesorios", "subcategoria": "anillos", "id": "anillo_de_plata", "precio": 40.00, "talla": "10", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ANILLO DE ORO", "categoria": "accesorios", "subcategoria": "anillos", "id": "anillo_de_oro", "precio": 120.00, "talla": "9", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ANILLO DE ACERO", "categoria": "accesorios", "subcategoria": "anillos", "id": "anillo_de_acero", "precio": 25.00, "talla": "11", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ARITOS DE PLATA", "categoria": "accesorios", "subcategoria": "aritos", "id": "aritos_de_plata", "precio": 30.00, "talla": "S", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ARITOS DE ORO", "categoria": "accesorios", "subcategoria": "aritos", "id": "aritos_de_oro", "precio": 90.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "ARITOS DE ACERO", "categoria": "accesorios", "subcategoria": "aritos", "id": "aritos_de_acero", "precio": 20.00, "talla": "L", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "RELOJ DE PULSERA", "categoria": "accesorios", "subcategoria": "relojes", "id": "reloj_de_pulsera", "precio": 150.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "RELOJ INTELIGENTE", "categoria": "accesorios", "subcategoria": "relojes", "id": "reloj_inteligente", "precio": 200.00, "talla": "L", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "RELOJ DE BOLSILLO", "categoria": "accesorios", "subcategoria": "relojes", "id": "reloj_de_bolsillo", "precio": 100.00, "talla": "S", "imagen": "https://placeholder.pics/svg/150"},
+    {"nombre": "RELOJ DEPORTIVO", "categoria": "accesorios", "subcategoria": "relojes", "id": "reloj_deportivo", "precio": 80.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"}
+  
+]
