@@ -1,6 +1,6 @@
 [
    
-    {"nombre": "PANTALÓN VAQUERO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_vaquero", "precio": 50.00, "talla": "M", "imagen":"https://i.pinimg.com/564x/28/01/9b/28019b3ac6de80863f0e5cf8e7e04e27.jpg"},
+    {"nombre": "PANTALÓN VAQUERO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_vaquero", "precio": 50.00, "talla": "M", "imagen":"/imagenes/imagenplaceholder.png"},
     {"nombre": "PANTALÓN CHINO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_chino", "precio": 45.00, "talla": "L", "imagen": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2023/05/09/16836007681731.jpg"},
     {"nombre": "PANTALÓN DEPORTIVO", "categoria": "ropa", "subcategoria": "pantalones", "id": "pantalon_deportivo", "precio": 30.00, "talla": "S", "imagen": "https://plataforma.iduo.com.ar/Panelcontenidos/Contenidos/1671657757-0-0.jpg"},
     {"nombre": "REMERÁ BÁSICA", "categoria": "ropa", "subcategoria": "remeras", "id": "remera_basica", "precio": 15.00, "talla": "M", "imagen": "https://placeholder.pics/svg/150"},

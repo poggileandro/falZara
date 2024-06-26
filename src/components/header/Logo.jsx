@@ -1,5 +1,5 @@
 
-import imagen from '../imagenes/falZARA.png';
+import imagen from '/imagenes/falZARA.png';
 
 export const Logo = () => {
   return (

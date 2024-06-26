@@ -1,37 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import data from "../data/productos.json";
-import categories from "../data/categorias.json"
 import { ItemList } from './ItemList';
+import { collection, getDocs, query, where } from 'firebase/firestore';
+import {db} from "../firebase/config";
 
 export const ItemListContainer = () => {
   let { categoryId }  = useParams();
   let [productos, setProductos] = useState([]);
   let [titulo, setTitulo] = useState("TODOS LOS PRODUCTOS");
 
-  const pedirProductos = () => {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve(data);
-      }, 1000);
-    });
-  };
+  
 
   useEffect(() => {
-      pedirProductos().then((res) => {
-        if (!categoryId) {
-          setTitulo("TODOS LOS PRODUCTOS");
-          setProductos(res);
-        } else {
-          setTitulo(categories.find((cat) => cat.id === categoryId).nombre);
-          setProductos(res.filter((prod) => prod.categoria === categoryId));
-        }
+    const productosref = collection(db, 'productos');
+    const q = categoryId ? query(productosref, where('categoria.id', '==', categoryId)): productosref;
+    getDocs(q)
+      .then((res) => {
+        setProductos(
+          res.docs.map((doc) => {
+            return { ...doc.data(), id: doc.id };
+          })
+        );
       })
       .catch((error) => {
-        console.error('Error fetching data:', error); 
+        console.error('Error fetching documents: ', error);
       });
-  }, [categoryId]);
 
+    if (categoryId) {
+      setTitulo(`${categoryId}`.toUpperCase());
+    } else {
+      setTitulo('TODOS LOS PRODUCTOS');
+    }
+  }, [categoryId]);
   return (
     <div className="item-list-container">
       <h1 className='titulo'>{ titulo}</h1>
