@@ -8,6 +8,5 @@ export const Logo = () => {
     <h2>FalZara</h2>
     </div>
     
-    //<h1>falZara</h1>
   )
 }

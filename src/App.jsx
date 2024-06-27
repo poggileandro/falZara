@@ -4,7 +4,7 @@ import { ItemListContainer } from './components/ItemListContainer'
 import { Header } from './components/header/Header'
 import { Notfound } from './components/Notfound'
 import { ItemDetailContainer } from './components/ItemDetailContainer'
-import { Cart } from './components/Cart'
+import { Cart } from './components/cart'
 import { CartProvider } from './context/cartcontext'
 import { Checkout } from './components/Checkout'
 
