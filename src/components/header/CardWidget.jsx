@@ -8,7 +8,7 @@ export const CardWidget = () => {
   const {cantidadCarrito} = useContext(cartContext);
   return (
     <div className='icono'>
-      <NavLink to="/Cart" activeclassname="active" className="nav-link"><FontAwesomeIcon icon={faCartShopping} /></NavLink>
+      <NavLink to="/Carrito" activeclassname="active" className="nav-link"><FontAwesomeIcon icon={faCartShopping} /></NavLink>
       <p>{cantidadCarrito()}</p>
   </div>
 
