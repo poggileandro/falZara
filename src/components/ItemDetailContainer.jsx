@@ -7,21 +7,24 @@ import { db } from '../firebase/config';
 export const ItemDetailContainer = () => {
   let { itemId } = useParams();
   let [producto, setProducto] = useState(undefined);
-  let error = false;
+  let [Loading,setLoading] = useState(true);
 
   useEffect(() => {
    const docref =  doc(db,"productos",itemId);
    getDoc(docref).then(res =>{
-    setProducto({...res.data(), id: res.id})
+    if(res.data()){
+      setProducto({...res.data(), id: res.id})
+    }
+    setLoading(false);
    } )
     
   }, [itemId]);
 
-  if(producto){
+  if(Loading){
+    return <div>Cargando...</div>
+  }else if (producto){
     return <ItemDetail producto={producto}/>
-  }else if (error){
-    return <div>Hubo un Error</div>
   }else{
-    <div>Cargando...</div>
+     return <div>Producto no Encontrado</div>
   }
 };
