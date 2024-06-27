@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { cartContext } from '../context/cartcontext'
 
 export const ItemDetail = ({producto}) => {
+
+const {agregarAlCarrito}  = useContext(cartContext);
+
   return (
     <div>
     <img className='producto-imagen' src={producto.imagen} alt={producto.nombre} />

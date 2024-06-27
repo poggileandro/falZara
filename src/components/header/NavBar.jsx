@@ -5,7 +5,7 @@ import {db} from "../../firebase/config";
 
 
 export const NavBar = () => {
-  let [categories,setcategories] = useState([]);
+let [categories,setcategories] = useState([]);
 const catref = collection(db, "categorias");
 
 getDocs(catref)
