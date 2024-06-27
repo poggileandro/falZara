@@ -7,6 +7,7 @@ import { ItemDetailContainer } from './components/ItemDetailContainer'
 import { CartProvider } from './context/cartcontext'
 import { Checkout } from './components/Checkout'
 import { Carrito } from './components/Carrito'
+import { Footer } from './components/Footer'
 
 
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/Finalizar-Compra' element={<Checkout/>}/>
             <Route path="/*" element={<Notfound />}/>
           </Routes>
+          <Footer/>
         </BrowserRouter>
       </CartProvider>
       
